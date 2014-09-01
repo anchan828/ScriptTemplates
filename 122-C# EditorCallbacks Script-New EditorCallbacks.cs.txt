@@ -1,0 +1,16 @@
+using UnityEngine;
+using UnityEditor.Callbacks;
+using UnityEditor;
+
+public class #SCRIPTNAME#
+{
+    [PostProcessBuild]
+    static void OnPostProcessBuild (BuildTarget target, string path)
+    {
+    }
+
+    [PostProcessScene]
+    static void OnPostProcessScene ()
+    {
+    }
+}

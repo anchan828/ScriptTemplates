@@ -1,0 +1,16 @@
+using UnityEngine;
+using UnityEditor;
+
+public class #SCRIPTNAME# : EditorWindow
+{
+    [MenuItem("Window/#SCRIPTNAME#")]
+    static void Open()
+    {
+        GetWindow<#SCRIPTNAME#> ();
+    }
+
+    void OnGUI ()
+    {
+    
+    }
+}
